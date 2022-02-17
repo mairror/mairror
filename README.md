@@ -48,11 +48,7 @@ Also, a Telegram bot will be developed and it will have the same functionality a
 - FastAPI API
 - Streamlit Frontend
 - MongoDB Database
-  - Experiments data and results¿? -> los resultados de los experimentos estarían en tensorboard -> ok, pero tienes que dejarlos en algún sitio
-  porque los entornos los vamos a tirar (podemos guardar la uri de tensorboard) -> no entiendo esto... Tensorboard es algo que levantas tú (tienes la version de tensorboard.dev que es gratuita pero esta abierta), 
-  creo que no cuesta nada tenerlo levantado, pero miramos (https://tensorboard.dev/) -> ya que te lo ofrecen...
-  ya te lo doy yo hecho también (https://medium.com/@wbuchwalter/monitoring-your-kubernetes-training-cluster-with-tensorboard-on-azure-e5133ad0c17c)-> lo que veas, pero no me quiero meter con tantas cosas
-  no quieres helmfile, jajaja -> pero va a ser una tonteria, lo que más lleve es la parte del chart
+  - Experiments data and results
   - Images URIs and results
 - Tensorflow Model
 - Generative Adversarial Networks (GANs)
