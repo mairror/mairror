@@ -1,0 +1,11 @@
+version: "3"
+services:
+  api:
+    image: mairror/mairror-api:v1.0.0
+    env_file:
+      - ../api/.env
+
+  bot:
+    image: mairror/mairror-bot:v1.0.0
+    env_file:
+      - ../telegram-bot/.env
