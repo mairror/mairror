@@ -3,6 +3,10 @@
 
 Mairror is a project that uses Artificial Inteligence to make predictions on the age and gender of pictures.
 
+## Try it!
+
+![qr](./assets/qr.png)
+
 ## Table of contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
