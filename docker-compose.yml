@@ -1,11 +1,30 @@
 version: "3"
 services:
   api:
-    image: mairror/mairror-api:v1.0.0
+    image: mairror/mairror-api:latest
+    ports:
+      - 8000:8000
     env_file:
       - ../api/.env
 
+  front:
+    image: mairror/mairror-front:latest
+    ports:
+      - 8501:8501
+    env_file:
+      - ../frontend/.env
+
   bot:
-    image: mairror/mairror-bot:v1.0.0
+    image: mairror/mairror-bot:latest
     env_file:
       - ../telegram-bot/.env
+
+  processor:
+    image: mairror/mairror-processor:latest
+    env_file:
+      - ../image-processor/.env
+
+  predictor:
+    image: mairror/mairror-predictor:latest
+    env_file:
+      - ../image-predictor/.env
